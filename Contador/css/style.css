@@ -1,0 +1,44 @@
+body{
+	background:url(../images/fondo.png);
+	text-align: center;
+  font-family: sans-serif;
+  font-weight: 100;
+
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 100px;
+  margin: 40px 0px 20px;
+	text-shadow: 3px 2px red;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+}
+
+#clockdiv > div{
+	padding: 60px;
+	border-radius: 3px;
+	background: #3B6B93;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 80px;
+	border-radius: 3px;
+	background: #770C0C;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 70px;
+}
